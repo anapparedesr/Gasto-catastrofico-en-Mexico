@@ -3,7 +3,15 @@ name = "gasto-catastrofico-en-mexico"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "matplotlib>=3.11.2",
     "pandas>=3.1.1",
     "requests>=2.34.2",
     "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbconvert>=7.17.2",
 ]
