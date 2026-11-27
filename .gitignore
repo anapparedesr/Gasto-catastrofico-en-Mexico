@@ -226,3 +226,8 @@ data/
 *.csv
 *.dbf
 *.parquet
+
+data/interim/
+*.csv
+*.dbf
+*.parquet
